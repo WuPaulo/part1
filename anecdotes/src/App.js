@@ -15,7 +15,7 @@ const App = () => {
 
   const [votes, setVotes] = useState([0, 0, 0, 0, 0, 0]);
   const [selected, setSelected] = useState(0);
-  const [mostVotes, setMostVotes] = useState("");
+  const [mostVotes, setMostVotes] = useState(0);
 
   const randomAnecdote = () => {
     const randomNumber = Math.floor(Math.random() * anecdotes.length);
